@@ -6,5 +6,120 @@ body {
     background-color: #ffffff;
     font-weight: 400;
 }
+.header-nav-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
 
+}
+.logo-accent {
+    color: #2e2f42;
+}
 
+.header-contacts {
+    font-style: normal;
+}
+.contact-list {
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.contact-link :hover {
+    color: #404bbf;
+}
+.contact-link :focus {
+    color: #404bbf;
+}
+    
+/* hero-section*/
+
+.hero-section {
+    background-color: #2e2f42;
+}
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.button-hero {
+    background-color: #4d5ae5 ;
+    font-family: "Roboto";
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+.button-hero:hover {
+background-color: #404bbf;
+}
+.button-hero:focus {
+    background-color: #404bbf;
+}
+
+/* section two */
+.company-values {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.value-text {
+    letter-spacing: 0.02em;
+}
+
+/*section-comanda*/
+
+.section-team {
+    background-color: #f4f4fd;
+}
+.titel-team {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.team-title {
+    background-color: #ffffff;
+}
+.team-iten {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.team-text {
+    font-size: 16px;
+    letter-spacing: 0.02em
+
+}
+/*section-portfolio*/
+
+.potrfolio-section {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+
+}
+.portfolio-item-title {
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+     color: #2e2f42;
+}
+/* footer-section */
+.footer-section {
+      background-color: #2e2f42;
+}
