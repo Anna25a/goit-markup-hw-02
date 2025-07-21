@@ -65,12 +65,14 @@ a {
     color: #ffffff;
 }
 .button-hero {
-    font-family: "Roboto", sans-serif;
+background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+
 }
 .button-hero:hover {
 background-color: #404bbf;
@@ -116,7 +118,7 @@ background-color: #404bbf;
 .team-title {
     background-color: #ffffff;
 }
-.team-iten {
+.team-item {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -130,7 +132,7 @@ background-color: #404bbf;
 }
 /*section-portfolio*/
 
-.potrfolio-section {
+.potrfolio-titel {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -145,6 +147,10 @@ background-color: #404bbf;
      line-height: 1.2;
      letter-spacing: 0.02em;
      color: #2e2f42;
+}
+
+.portfolio-value {
+    letter-spacing: 0.02em
 }
 /* footer-section */
 .footer-section {
