@@ -65,9 +65,12 @@ a {
     color: #ffffff;
 }
 .button-hero {
-    background-color: #4d5ae5 ;
-    font-family: "Roboto", sans-serif
- 
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04;
+  color: #ffffff;
+  cursor: pointer;
 }
 .button-hero:hover {
 background-color: #404bbf;
