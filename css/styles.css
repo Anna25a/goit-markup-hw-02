@@ -13,11 +13,11 @@ body {
 }
 /* header */
 .logo {
-    font-family: "Roboto", sans-serif;
+    font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
 }
@@ -29,7 +29,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color:#2e2f42; 
 }
 
 .header-adress {
@@ -47,7 +47,7 @@ color: #434455;
 .header-nav-link:focus,
 .header-adress-link:hover,
 .header-adress-link:focus {
-background-color:  #404bbf;
+color:#404bbf;
 }
 
 /* hero-page */
@@ -73,6 +73,9 @@ letter-spacing: 0.04em;
 background-color: #4d5ae5;
 color: #fff;
 cursor: pointer
+ }
+ .hero-btn:hover{
+    background-color: #404bbf;;
  }
  /* benefits */
 
